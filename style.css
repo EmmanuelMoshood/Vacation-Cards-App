@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+main{
+    max-width: 500px;
+    margin: auto;
+}
+tr{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* section {
+    display: flex;
+} */

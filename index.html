@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Time App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+    <div class="logo">
+        <img src="" alt="">
+        <h1>Vacation Time App</h1>
+    </div>
+
+    <button>Add a place</button>
+</header>
+
+<main>
+
+    <!-- <section id="cards-display-area">
+    
+    <div class="card">
+        <img src="card-image.jpg" alt="Card Image">
+        <div class="card-content">
+            <h2 class="card-title">Card Title 1</h2>
+            <p class="card-description">Card Description</p>
+            <ul class="card-tags">
+                <li>Tag 1</li>
+                <li>Tag 2</li>
+                <li>Tag 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="card-image.jpg" alt="Card Image">
+        <div class="card-content">
+            <h2 class="card-title">Card Title 2</h2>
+            <p class="card-description">Card Description</p>
+            <ul class="card-tags">
+                <li>Tag 1</li>
+                <li>Tag 2</li>
+                <li>Tag 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="card-image.jpg" alt="Card Image">
+        <div class="card-content">
+            <h2 class="card-title">Card Title 2</h2>
+            <p class="card-description">Card Description</p>
+            <ul class="card-tags">
+                <li>Tag 1</li>
+                <li>Tag 2</li>
+                <li>Tag 3</li>
+            </ul>
+        </div>
+    </div>
+    
+</section> -->
+
+
+
+<section id="table-display-area">
+    <fieldset>
+        <legend>
+            <h2>Form</h2>
+        </legend>
+        <form action="" autocomplete="off" onsubmit="submitForm()">
+            <div>
+
+                <input type="text" 
+                name="location-name" 
+                id="location-name"
+                placeholder="Location Name">   
+
+                <input type="text" 
+                name="rating" 
+                id="rating-input"
+                placeholder="Rating">
+            
+                
+                <input type="text"
+                name="card-image-url" 
+                id="card-image-url-input"
+                placeholder="Card Image Url">
+
+            </div>
+            <div class="form-action-buttons">
+                <input type="submit" value="Submit" onclick="submitForm()">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </fieldset>
+    <br>
+    <div id="message"></div>
+    <br>
+    <fieldset>
+        <legend>
+            <h1>Result</h1>
+        </legend>
+
+        <table border="1" id="result-table" >
+            <tr class="table-head-row">
+                <td class="table-head">Location Name</td>
+                <!-- <td class="table-head">Description</td>
+                <td class="table-head">Type</td>
+                <td class="table-head">Temperation</td>
+                <td class="table-head">Flight</td> -->
+                <td class="table-head">Rating</td>
+                <td class="table-head">Card Image Url</td>
+                <td class="table-head">Actions</td>
+            </tr>
+        </table>
+    </fieldset>
+</section>
+
+</main>
+
+<script src="./script.js"></script>
+</body>
+</html>

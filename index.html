@@ -11,7 +11,7 @@
     
 <header>
     <div class="logo">
-        <img src="" alt="">
+        <div class="logo-image"><ion-icon name="airplane-outline"></ion-icon></div>
         <h1>Vacation Time App</h1>
     </div>
 
@@ -19,7 +19,7 @@
 </header>
 
 <main>
-<section id="table-display-area">
+<!-- <section id="table-display-area">
     <fieldset>
         <legend>
             <h2>Form</h2>
@@ -61,34 +61,91 @@
         <table border="1" id="result-table" >
             <tr class="table-head-row">
                 <td class="table-head">Location Name</td>
-                <!-- <td class="table-head">Description</td>
-                <td class="table-head">Type</td>
-                <td class="table-head">Temperation</td>
-                <td class="table-head">Flight</td> -->
                 <td class="table-head">Rating</td>
                 <td class="table-head">Card Image Url</td>
                 <td class="table-head">Actions</td>
             </tr>
         </table>
     </fieldset>
-</section>
+</section> -->
 
-<form id="card-form">
-    <label for="title-input">Title:</label>
-    <input type="text" id="title-input" name="title" required>
-    <label for="image-input">Image URL:</label>
-    <input type="text" id="image-input" name="image" required>
-    <label for="description-input">Description:</label>
-    <textarea id="description-input" name="description" rows="3" required></textarea>
-    <button type="submit">Add Card</button>
-  </form>
+
+    <div id="add-place-page">
+        <form id="card-form">
+            <div class="form-name">
+                <h2>Add Place</h2>
+                <button>close</button>
+            </div>
+            <label for="title-input">TITLE:</label>
+            <input type="text" id="title-input" name="title" required>
+            <label for="description-input">DESCRIPTION:</label>
+            <textarea id="description-input" name="description" rows="3" required></textarea>
+            <label for="image-input">IMAGE URL:</label>
+            <input type="text" id="image-input" name="image" required>
+            
+            <button type="submit">Add Card</button>
+        </form>
+    </div>
+
   
-  <div id="card-container"></div>
+<section>
+    <div class="cards-result">
+        <div class="cards">
+            <img src="https://images.unsplash.com/photo-1558117338-7ef3d637ce2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=350&q=80" alt="">
+            <div class="card-details">
+                <h1 class="card-title">The Bar Beach Kenya</h1>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam sunt consequatur, ipsam modi explicabo in animi quasi sapiente nisi cumque aliquam officia dolorum voluptatibus quas, voluptates maxime? Est, pariatur?</p>
+                <div class="tagged-categories">
+                    <div class="tags">Short Flight</div>
+                    <div class="tags">Hot</div>
+                    <div class="tags">Adventure</div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <img src="https://images.unsplash.com/photo-1558117338-7ef3d637ce2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=350&q=80" alt="">
+            <div class="card-details">
+                <h1 class="card-title">The Bar Beach Kenya</h1>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam sunt consequatur, ipsam modi explicabo in animi quasi sapiente nisi cumque aliquam officia dolorum voluptatibus quas, voluptates maxime? Est, pariatur?</p>
+                
+                <div class="tagged-categories">
+                    <div class="tags">Short Flight</div>
+                    <div class="tags">Hot</div>
+                    <div class="tags">Adventure</div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <img src="https://images.unsplash.com/photo-1558117338-7ef3d637ce2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=350&q=80" alt="">
+            <div class="card-details">
+                <h1 class="card-title">The Bar Beach Kenya</h1>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam sunt consequatur, ipsam modi explicabo in animi quasi sapiente nisi cumque aliquam officia dolorum voluptatibus quas, voluptates maxime? Est, pariatur?</p>
+                <div class="tagged-categories">
+                    <div class="tags">Short Flight</div>
+                    <div class="tags">Hot</div>
+                    <div class="tags">Adventure</div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <img src="https://images.unsplash.com/photo-1558117338-7ef3d637ce2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=350&q=80" alt="">
+            <div class="card-details">
+                <h1 class="card-title">The Bar Beach Kenya</h1>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam sunt consequatur, ipsam modi explicabo in animi quasi sapiente nisi cumque aliquam officia dolorum voluptatibus quas, voluptates maxime? Est, pariatur?</p>
+                <div class="tagged-categories">
+                    <div class="tags">Short Flight</div>
+                    <div class="tags">Hot</div>
+                    <div class="tags">Adventure</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 </main>
 
 <script src="./script.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
-
 

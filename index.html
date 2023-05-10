@@ -19,52 +19,6 @@
 </header>
 
 <main>
-
-    <!-- <section id="cards-display-area">
-    
-    <div class="card">
-        <img src="card-image.jpg" alt="Card Image">
-        <div class="card-content">
-            <h2 class="card-title">Card Title 1</h2>
-            <p class="card-description">Card Description</p>
-            <ul class="card-tags">
-                <li>Tag 1</li>
-                <li>Tag 2</li>
-                <li>Tag 3</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="card-image.jpg" alt="Card Image">
-        <div class="card-content">
-            <h2 class="card-title">Card Title 2</h2>
-            <p class="card-description">Card Description</p>
-            <ul class="card-tags">
-                <li>Tag 1</li>
-                <li>Tag 2</li>
-                <li>Tag 3</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="card-image.jpg" alt="Card Image">
-        <div class="card-content">
-            <h2 class="card-title">Card Title 2</h2>
-            <p class="card-description">Card Description</p>
-            <ul class="card-tags">
-                <li>Tag 1</li>
-                <li>Tag 2</li>
-                <li>Tag 3</li>
-            </ul>
-        </div>
-    </div>
-    
-</section> -->
-
-
-
 <section id="table-display-area">
     <fieldset>
         <legend>
@@ -119,8 +73,22 @@
     </fieldset>
 </section>
 
+<form id="card-form">
+    <label for="title-input">Title:</label>
+    <input type="text" id="title-input" name="title" required>
+    <label for="image-input">Image URL:</label>
+    <input type="text" id="image-input" name="image" required>
+    <label for="description-input">Description:</label>
+    <textarea id="description-input" name="description" rows="3" required></textarea>
+    <button type="submit">Add Card</button>
+  </form>
+  
+  <div id="card-container"></div>
+
 </main>
 
 <script src="./script.js"></script>
 </body>
 </html>
+
+
